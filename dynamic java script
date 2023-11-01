@@ -1,0 +1,55 @@
+Program-15 
+EXP. No.....15... 
+create a page with dynamic effects, write the code to include layers and basic animation 
+<html> 
+<head> 
+<title> prgm Is</title> 
+<script> 
+function disp(id) { 
+d=document.getElementById(id); 
+d. style. 3 Index = 10; 
+}
+function hid (id) { 
+d = document, getElementById (id); 
+d.style. 3Index = 0; 
+}
+</script> 
+<style> 
+• img.1 { 
+top: 100px; 
+left: 100px; 
+position: absolute;
+ 3-Index:0; 
+height: 200px;
+ width: 200px; 
+• img2 { 
+top: 150px;
+ left: 150px; 
+position:absolute; 
+3-index:0; 
+height: 200px; 
+width: 200px; 
+}
+
+Img 3 {
+
+top: 200px; 
+left: 200px; 
+position :absolute; 
+3-index :0; 
+height: 200px;
+ width: 200px; 
+}
+</style> 
+</head> 
+<body> 
+<imgsrc="1.jpg"class="img1=" id=”1”
+
+onmouseover="disp ('”1'”)" onmouseout= "hid ('1')"> 
+<img src= "2.jpg" class="img2" id="2" 
+onmouseover="disp("2") "onmouseout: "hid')"> 
+<img src="3.jpg" class="img3" id="3" 
+onmouseover="disp('3")"
+ onmouseouts ="hid ('3')"> 
+</body> 
+</html> 
