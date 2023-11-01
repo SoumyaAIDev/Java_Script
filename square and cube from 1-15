@@ -1,0 +1,17 @@
+Program-3 
+Print table of  numbers from 5 to 15 and 5 to 15 and print their squares and cubes using alert 
+<html> 
+<head> 
+<title> square and cube </title> 
+</head>
+ <body>
+<script> 
+str = "num square cube";
+ for (num=5; num <= 15; num++) {
+square :num *num; 
+cube = num *num * numm;
+ str = str+ "\n" + num + "+ Square + “” + cube;} 
+alent (str.); 
+</script> 
+</body> 
+</html> 
