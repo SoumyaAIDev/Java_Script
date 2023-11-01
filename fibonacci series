@@ -1,0 +1,21 @@
+Program-6 
+Display Fibonacci series using java script 
+<html> 
+<head> 
+<title> prgm6</title> 
+</head> 
+<body> 
+<script> 
+n = prompt ('enter a value :"); 
+f1=0; 
+f2=11 
+document, write (f1,””,f2) 
+for (i = 3; i<= n; i++) { 
+f3=f2+f1; 
+document. write(""”, f3); 
+f1= f2; 
+f2= f3; 
+}
+</script> 
+</body> 
+</html> 
