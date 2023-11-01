@@ -1,0 +1,40 @@
+Program-13 
+EXP. No....J3. 
+create a form for employee information write java script code to find DA, HRA, PF, TAX, Grosspay, Deduction and Netpay. 
+<html> 
+<head> 
+<title> prgm 13 </title> 
+<script> 
+function calc(){ 
+bp = parse Float (document.getElementById 
+("salary"). value); 
+da = (5/100) * bp; 
+document.getElement Byrd ("da").value=da; hra = (10/100) * bp; 
+document.getElementById ("hra"). value =hra = (12.5/100) * bp; 
+document, getElementById(" p.f.").value: pf;
+tax=200; 
+document, getElementById("tax").value= tax; 
+gpay=dathra+bp+ pf+tax; 
+document, getElementById("ded"), value=gpay;
+npay = gpay-ded;
+document, getElementById("pay"), value =gpay;}
+ 
+</script>
+ </head>
+ <body> 
+
+<form> 
+h2> Employee Information </h2>  
+Name <input type="text" id="name"> <br /> <br /> 
+Basic pay <input type="text" id="salary"> <br />
+ <input type="button" value="calculate" 
+onclick="calc()"> <br /> <br /> 
+DA <input type="text" id="da"> <br /> <br />
+ HRA <input type="text" id="bro"> <br /> <br /> 
+PF <input type="text" id="pf"> <br /> <br />  <input type="text" id="tax"> <br /> <br />
+ Grosspay <input type="text<" id="gpay"> <br /><br /> 
+Deduction <input type="text" id="ded "><br /><br /> 
+Netpay <input type="text" id="npay"> <br /><br /
+> </form> 
+</body> 
+</html> 
