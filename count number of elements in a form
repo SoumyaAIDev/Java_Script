@@ -1,0 +1,33 @@
+Program-7 
+EXP. No....0.7. 
+count positive negative and zeros 
+<head> 
+<html>
+</head> 
+<title> Array </title> 
+</head>
+<body>
+<script> 
+arr=[]
+n= parseInt (prompt("enter a value:"')); 
+for (i=0; i<n;i++) 
+{ 
+val =prompt ("enter value:"); 
+arr = push (val); 
+}
+poscount = negcount = zerocount=0; 
+for (i=0;i<n;i++) 
+{ 
+if (arr[1].0) 
+poscount++; 
+else if (arr[i]<0) 
+negcount++; 
+else 
+zero count++; }
+document, write("number of positive elements:" + poscount + "<br />"); 
+document. write ('number of negativeelements:" + negcount + "<br />"); 
+.. 
+document, write (“number of zero elements: “+ zerocount); 
+</script> 
+</body> 
+</html> 
