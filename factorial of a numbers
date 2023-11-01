@@ -1,0 +1,18 @@
+Find factorial of a number using java script 
+<html> 
+<head> 
+<title> javascript </title> 
+<thead> 
+<body> 
+<script> 
+function fact (n) { 
+f=1;
+for (i=1; i<n;i++) { 
+f=f*i; }
+return f ;
+n==prompt ("enter a value:"); 
+fact_n = fact (n); 
+alert (fact.n); 
+</script> 
+</body> 
+</html> 
