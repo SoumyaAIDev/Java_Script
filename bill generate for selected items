@@ -1,0 +1,65 @@
+#Program-14 
+#create a form consists of a two multiple choice list and one single choice list. The first multiple choice lust, 
+#displays the major dishes available. The second multiple choice list, duplays the soft starters available The single choice list, duplays the soft drinks available. 
+<html> 
+<head> 
+<title> java script </title> 
+<script> 
+function bill (){
+main =document.getElementById ("main); start=document.getElementById("start");
+sqft = document, getElementById ("soft"), 
+
+ 
+selert = "Item Name /n”;
+total = 0; 
+for (i=0; i<main, options. length; i++) { 
+ch = main, options [i]; 
+if (ch. selected == true) { 
+price = parseInd (ch.value); 
+total = total + price;
+select= select ch, text+”” "+price + "\n";
+}
+} 
+for (r=0; i<start .options length; i++) { 
+ch=start. options [i]; 
+if (ch, selected == true) { 
+price = parseInt(ch=values); {
+.. 
+total = total + price; 
+select = select + ch.text+”") +pricer "In"; }
+}
+for (i=0; i< soft options length; itt); 
+ch = soft, options[i]; if (ch.selected == true){ 
+price = parseInt(ch.value); total = total + price; 
+select = select +ch.text+) 
++ price + "\n"; 
+select = select + "total cost "t total + "\n"; document.getElementById("display") 
+value=select; 
+५ 
+</script> 
+</head> 
+<body> 
+<form> 
+<h2> Hotel </h2> 
+Main Course &nbsp; <select id="main" 
+multiple fobsp; 
+<option value = 100> Dasa </option> <option value = 90> Noodles </options <option value=80> Puri </option> 
+<option value = 70> Biryani </option> </select> <br /> <br /> &nbsp; Starters &nbsp; <select id="main"" 
+DATE 
+PAGE NO...24...... 
+multiple > &nbsp; 
+EXP. No........ 
+<option value 600> spring roll </option> <option value = 90> com cheese balls 
+<loption> 
+<option value: 80> Soup </option> <option value: 70 > Paneer tikka </option </select> <br /> <br /> &nbsp; softdrinks fabsp;<select id="soft"> &nbsp; 
+<option value = 100> coco cola </option> <option value = @o> maaga <loptions <option value=80> Fanta < /option> <option value = 70> Thumps up</option> </select> <br /> <br /> &nbsp; <textarea id="display" rows=10 cols=50- 
+</textarea> <br /> <br /> &nbsp; <input type="button" value="total cost" 
+onclick= "bill ()">&nbsp; 
+</form> 
+</body> </html> 
+<input type="reset" value="clear" 
+output:- 
+슈 
+-DX 
+-DX 
+DATE. 
