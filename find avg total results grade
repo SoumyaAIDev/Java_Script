@@ -1,0 +1,33 @@
+Program-11 
+EXP. No.....11......... 
+write a java script code block wing arrays generate the current date in words, this should include the day, month and year. 
+<<html> 
+<title> prgm 11 </title> 
+<head> 
+<head> 
+<body> 
+<script> 
+days=['sunday', 'monday', 'Tuesday, 
+'wednesday' 'thursday, 'friday, 'saturday']; 
+months = ("january february! 'march", 
+'april', 'may', 'june", july", "august', ' september', 'october', november', 'december ']; 
+var d=  new Date(); 
+var cur day=d.get Day(); 
+var cur date = d.getDate(); 
+Var S = " ". 
+if (Cur_date == || || cur date==21!!| 
+cur_date ==31 
+s = "st"; 
+Else if (cur_date ==2|| cur_date==22) 
+s="nd"; 
+else if (cur_date == 3 || cur_date == 23) 
+s="rd"; 
+Else
+s="th"; 
+cur_month=d.getMonth();
+ cur_year = d.get Full year ();
+ document, write ("<b><center>"+
+days [cur _day ]+,, "+ cur date + "<sup> "'+s+ "</sup> + months [cur month ]+ " + cur_year + "</center></b>"); 
+</script> 
+</body> 
+</html> 
