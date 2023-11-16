@@ -1,0 +1,36 @@
+<html> 
+  
+<head> 
+    <title> 
+        How to get the current URL using JavaScript ? 
+    </title> 
+</head> 
+  
+<body> 
+    <h1 style="color:pink">soumyadasappagari</h1> 
+    <h2> 
+        JavaScript: Program to 
+        get the URL ? 
+    </h2> 
+    <p> 
+        <b> 
+            Click on Below Button 
+            To Get Current URL 
+        </b> 
+    </p> 
+  
+    <button onclick="GetURL()"> 
+         Get URL  
+    </button> 
+    <p id="url"></p> 
+  
+  
+    <script> 
+        function GetURL() { 
+            var sds = document.URL; 
+            document.getElementById("url").innerHTML = sds; 
+        } 
+    </script> 
+</body> 
+  
+</html> 
